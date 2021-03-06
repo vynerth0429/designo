@@ -1,6 +1,6 @@
 import React from "react";
 
-import LandingHeader from "../views/landing/LandingHeader";
+import LandingHeader from "../views/header/LandingHeader";
 
 export default function Home() {
   return (
