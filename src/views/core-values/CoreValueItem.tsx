@@ -6,7 +6,6 @@ interface ComponentProps {
   coreValue: TCoreValue
 }
 
-
 function CoreValueItem(props: ComponentProps) {
   return (
     <div className="flex flex-col item-center space-y-12 md:flex-row md:space-y-0 md:space-x-12 lg:flex-col lg:items-center lg:space-y-12">
