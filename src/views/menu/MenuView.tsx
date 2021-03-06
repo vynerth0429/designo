@@ -18,7 +18,6 @@ function MenuView() {
             <Image
               src="/assets/shared/desktop/logo-dark.png"
               alt="Dark logo"
-              loading="eager"
               quality={100}
               layout="fill"
             />
@@ -50,7 +49,6 @@ function MenuView() {
                 : '/assets/shared/mobile/icon-hamburger.svg'
               }
               alt="Hamburger icon"
-              loading="eager"
               quality={100}
               layout="fill"
             />

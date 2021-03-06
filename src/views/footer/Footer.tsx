@@ -22,7 +22,6 @@ function Footer() {
                   <Image
                     src="/assets/shared/desktop/logo-light.png"
                     alt="Light logo"
-                    loading="eager"
                     quality={100}
                     layout="fill"
                   />
