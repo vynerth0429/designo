@@ -13,15 +13,17 @@ function MenuView() {
   return (
     <div className="fixed z-50 left-0 top-0 right-0 h-24 px-6 flex justify-center sm:h-auto sm:px-10 sm:pt-16 sm:pb-8 bg-white 2xl:px-0">
       <div className="container flex items-center justify-between">
-        <div className="flex-none relative h-7 w-52">
-          <Image
-            src="/assets/shared/desktop/logo-dark.png"
-            alt="Dark logo"
-            loading="eager"
-            quality={100}
-            layout="fill"
-          />
-        </div>
+        <a href="/">
+          <div className="flex-none relative h-7 w-52">
+            <Image
+              src="/assets/shared/desktop/logo-dark.png"
+              alt="Dark logo"
+              loading="eager"
+              quality={100}
+              layout="fill"
+            />
+          </div>
+        </a>
 
         <div className="hidden sm:flex justify-end space-x-10">
           {
