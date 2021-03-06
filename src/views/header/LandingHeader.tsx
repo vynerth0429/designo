@@ -6,14 +6,6 @@ import useBreakpoints from '../../hooks/useBreakpoints';
 import ButtonLight from '../button/ButtonLight';
 
 function LandingHeader() {
-  const { breakpoint } = useBreakpoints();
-  const [images, setImages] = React.useState({
-
-  })
-
-  React.useEffect(() => {
-
-  }, [breakpoint])
   return (
     <div className="relative bg-peach overflow-hidden md:rounded-2xl">
       <div className="relative z-10 px-6 pt-20 flex flex-col items-center md:rounded-2xl lg:flex-row lg:px-24 lg:pt-36 lg:items-start">

@@ -11,7 +11,7 @@ import Footer from "../views/footer/Footer";
 export default function Home() {
   return (
     <>
-      <div className="mt-8 flex flex-col items-center px-0 md:px-10 2xl:px-0">
+      <div className="md:mt-8 flex flex-col items-center px-0 md:px-10 2xl:px-0">
         <div className="container space-y-40">
           <LandingHeader />
         </div>
