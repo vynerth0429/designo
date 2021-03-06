@@ -28,7 +28,6 @@ const useBreakpoints = () => {
       });
 
       if (breakpoint !== newBreakpoint) {
-        console.log('breakpoint', newBreakpoint);
         setBreakpoint(newBreakpoint);
       }
     }

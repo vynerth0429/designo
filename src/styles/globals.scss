@@ -24,7 +24,7 @@
     cursor: pointer;
     position: relative;
 
-    span {
+    > span {
       position: relative;
 
       &::before {
@@ -42,7 +42,7 @@
     }
 
     &:hover {
-      span {
+      > span {
         &::before {
           visibility: visible;
           transform: scaleX(1);
@@ -52,7 +52,7 @@
   }
 
   .animated-menu-white {
-    span {
+    > span {
       &::before {
         background-color: #FFFFFF;
       }

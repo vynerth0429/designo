@@ -1,24 +1,7 @@
 import React from 'react'
 import Image from 'next/image';
 
-type TMenuItem = {
-  display: string,
-  link: string
-}
-const kMenuItems: TMenuItem[] = [
-  {
-    display: 'Our Company',
-    link: ''
-  },
-  {
-    display: 'Location',
-    link: ''
-  },
-  {
-    display: 'Contact',
-    link: ''
-  }
-]
+import { MenuItemsData } from '../../data/menu-items-data';
 
 function MenuView() {
   const [showMenu, setShowMenu] = React.useState(false);
@@ -44,7 +27,7 @@ function MenuView() {
 
         <div className="hidden sm:flex justify-end space-x-10">
           {
-            kMenuItems.map((menuItem, index) => (
+            MenuItemsData.map((menuItem, index) => (
               <div
                 key={index}
                 className="animated-menu menu-white">
@@ -74,7 +57,7 @@ function MenuView() {
 
           <div className={`${showMenu ? 'block' : 'hidden'} absolute left-0 right-0 top-24 bg-dark py-8`}>
             {
-              kMenuItems.map((menuItem, index) => (
+              MenuItemsData.map((menuItem, index) => (
                 <div
                   key={index}
                   className="px-6 h-10 flex items-center animated-menu-white">
