@@ -17,15 +17,17 @@ function Footer() {
 
           <div className="mt-16 grid grid-cols-1 gap-8 md:grid-cols-3">
             <div className="col-start-1 col-end-2 flex justify-center items-center md:justify-start">
-              <div className="relative h-7 w-52">
-                <Image
-                  src="/assets/shared/desktop/logo-light.png"
-                  alt="Dark logo"
-                  loading="eager"
-                  quality={100}
-                  layout="fill"
-                />
-              </div>
+              <a href="/">
+                <div className="relative h-7 w-52">
+                  <Image
+                    src="/assets/shared/desktop/logo-light.png"
+                    alt="Light logo"
+                    loading="eager"
+                    quality={100}
+                    layout="fill"
+                  />
+                </div>
+              </a>
             </div>
 
             <div className="h-px w-full bg-white opacity-10 col-start-1 col-end-2 md:col-start-1 md:col-end-4 md:row-start-2 md:row-end-3"></div>
@@ -33,13 +35,14 @@ function Footer() {
             <div className="col-start-1 col-end-2 flex flex-col items-center space-y-2 md:col-start-2 md:col-end-4 md:flex-row md:justify-end md:space-y-0 md:space-x-10">
               {
                 MenuItemsData.map((menuItem, index) => (
-                  <div
-                    key={index}
-                    className="px-6 h-10 flex items-center animated-menu-white md:text-right md:px-0">
-                    <span className="uppercase text-body2 text-white">
-                      { menuItem.display }
-                    </span>
-                  </div>
+                  <a key={index}
+                    href={menuItem.link}>
+                    <div className="px-6 h-10 flex items-center animated-menu-white md:text-right md:px-0">
+                      <span className="uppercase text-body2 text-white">
+                        { menuItem.display }
+                      </span>
+                    </div>
+                  </a>
                 ))
               }
             </div>
