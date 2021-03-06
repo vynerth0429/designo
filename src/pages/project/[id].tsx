@@ -9,6 +9,7 @@ import {
 } from '../../data/projects-data';
 
 import ProjectHeader from '../../views/header/ProjectHeader';
+import ProjectList from '../../views/project/ProjectList';
 
 function ProjecPage() {
   const router = useRouter();
@@ -55,6 +56,12 @@ function ProjecPage() {
             category &&
             <ProjectHeader projectCategory={category}/>
           }
+        </div>
+      </div>
+
+      <div className="mt-24 md:mt-40 flex flex-col items-center px-6 md:px-10 2xl:px-0">
+        <div className="container">
+          <ProjectList projects={projects} />
         </div>
       </div>
     </>

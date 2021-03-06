@@ -9,7 +9,7 @@ interface ComponentProps {
 function ProjectHeader(props: ComponentProps) {
   return (
     <div
-      className="relative bg-peach py-28 px-6 overflow-hidden md:rounded-2xl bg-right-top bg-no-repeat space-y-6"
+      className="relative bg-peach py-28 px-6 overflow-hidden md:rounded-2xl bg-right-top bg-no-repeat space-y-6 md:bg-right"
       style={{
         backgroundImage: "url('"+ props.projectCategory.image.header +"')"
       }}>
