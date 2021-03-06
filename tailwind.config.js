@@ -28,7 +28,11 @@ module.exports = {
           lineHeight: '2.25rem',
           letterSpacing: '0rem',
         }],
-        'h4': ['1.25rem', {
+        'h4': ['1.75rem', {
+          lineHeight: '2.25rem',
+          letterSpacing: '0.0875rem',
+        }],
+        'h5': ['1.25rem', {
           lineHeight: '1.625rem',
           letterSpacing: '0.3125rem',
         }],
@@ -58,13 +62,14 @@ module.exports = {
         }
       },
       backgroundImage: theme => ({
-        'home-header-bg': "url('/assets/home/desktop/bg-pattern-hero-home.svg')"
+        'home-header-bg': "url('/assets/home/desktop/bg-pattern-hero-home.svg')",
       })
     },
   },
   variants: {
     extend: {
       fill: ['hover', 'focus', 'group-hover'],
+      scale: ['hover', 'active', 'group-hover'],
     },
   },
   plugins: [],
