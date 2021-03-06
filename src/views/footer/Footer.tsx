@@ -4,13 +4,18 @@ import Image from 'next/image';
 import { MenuItemsData } from '../../data/menu-items-data';
 
 import SocialMedia from './SocialMedia';
+import FooterContact from './FooterContact';
 
 function Footer() {
   return (
     <div className="bg-dark w-full">
       <div className="flex flex-col items-center py-16 px-6 md:px-10 2xl:px-0">
         <div className="container">
-          <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
+          <div className="-mt-60 md:-mt-80">
+            <FooterContact />
+          </div>
+
+          <div className="mt-16 grid grid-cols-1 gap-8 md:grid-cols-3">
             <div className="col-start-1 col-end-2 flex justify-center items-center md:justify-start">
               <div className="relative h-7 w-52">
                 <Image

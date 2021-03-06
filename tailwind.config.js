@@ -7,7 +7,8 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     screens: {
-      xs: '320px',
+      xxs: '320px',
+      xs: '375px',
       ...screens
     },
     fontFamily: {
@@ -63,6 +64,7 @@ module.exports = {
       },
       backgroundImage: theme => ({
         'home-header-bg': "url('/assets/home/desktop/bg-pattern-hero-home.svg')",
+        'footer-contact-bg': "url('/assets/shared/desktop/bg-pattern-call-to-action.svg')",
       })
     },
   },

@@ -7,8 +7,6 @@ function MenuView() {
   const [showMenu, setShowMenu] = React.useState(false);
 
   const toggleMenuVisibility = () => {
-    console.log('toggleMenuVisibility');
-
     setShowMenu(!showMenu);
   }
 

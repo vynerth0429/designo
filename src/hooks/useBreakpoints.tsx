@@ -2,7 +2,8 @@ import { screens } from 'tailwindcss/defaultTheme';
 import React from 'react';
 
 const kNewScreens = {
-  xs: '320px',
+  xxs: '320px',
+  xs: '375px',
   ...screens
 }
 
@@ -27,9 +28,7 @@ const useBreakpoints = () => {
         }
       });
 
-      if (breakpoint !== newBreakpoint) {
-        setBreakpoint(newBreakpoint);
-      }
+      setBreakpoint(newBreakpoint);
     }
 
     // Add event listener

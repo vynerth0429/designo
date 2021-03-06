@@ -13,7 +13,9 @@ function ProjectCategoryItem(props: ComponentProps) {
   const [imageBG, setImageBG] = React.useState('');
 
   React.useEffect(() => {
-    if (breakpoint === 'xs') {
+    if (breakpoint === 'xxs') {
+      setImageBG(props.category.image.mobile);
+    } else if (breakpoint === 'xs') {
       setImageBG(props.category.image.mobile);
     } else if (breakpoint === 'sm') {
       setImageBG(props.category.image.mobile);
