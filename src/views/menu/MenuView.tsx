@@ -59,13 +59,14 @@ function MenuView() {
           <div className={`${showMenu ? 'block' : 'hidden'} absolute left-0 right-0 top-24 bg-dark py-8`}>
             {
               MenuItemsData.map((menuItem, index) => (
-                <div
-                  key={index}
-                  className="px-6 h-10 flex items-center animated-menu-white">
-                  <span className="uppercase text-body2 text-white">
-                    { menuItem.display }
-                  </span>
-                </div>
+                <a key={index}
+                  href={menuItem.link}>
+                  <div className="px-6 h-10 flex items-center animated-menu-white">
+                    <span className="uppercase text-body2 text-white">
+                      { menuItem.display }
+                    </span>
+                  </div>
+                </a>
               ))
             }
           </div>
