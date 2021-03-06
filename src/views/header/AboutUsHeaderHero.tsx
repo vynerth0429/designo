@@ -3,7 +3,7 @@ import React from 'react';
 import useBreakpoints from '../../hooks/useBreakpoints';
 import { AboutUsHeroData } from '../../data/about-us-data';
 
-function AboutUsHeader() {
+function AboutUsHeaderHero() {
   const { breakpoint } =  useBreakpoints();
   const [image, setImage] = React.useState('');
   const [imageBG, setImageBG] = React.useState('');
@@ -58,10 +58,16 @@ function AboutUsHeader() {
               </span>
             </div>
 
-            <div className="text-center lg:text-left">
-              <span className="text-caption text-white md:text-base">
-                { AboutUsHeroData.description }
-              </span>
+            <div className="text-center lg:text-left space-y-4">
+              {
+                AboutUsHeroData.description.map((description, index) => (
+                  <span
+                    key={index}
+                    className="text-caption text-white md:text-base">
+                    { description }
+                  </span>
+                ))
+              }
             </div>
           </div>
         </div>
@@ -70,4 +76,4 @@ function AboutUsHeader() {
   )
 }
 
-export default React.memo(AboutUsHeader);
+export default React.memo(AboutUsHeaderHero);
