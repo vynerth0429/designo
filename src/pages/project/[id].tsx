@@ -10,6 +10,8 @@ import {
 
 import ProjectHeader from '../../views/header/ProjectHeader';
 import ProjectList from '../../views/project/ProjectList';
+import ProjectCategoryList from '../../views/project/ProjectCategoryList';
+import Footer from '../../views/footer/Footer';
 
 function ProjecPage() {
   const router = useRouter();
@@ -59,10 +61,23 @@ function ProjecPage() {
         </div>
       </div>
 
-      <div className="mt-24 md:mt-40 flex flex-col items-center px-6 md:px-10 2xl:px-0">
+      <div className="mt-24 lg:mt-40 flex flex-col items-center px-6 md:px-10 2xl:px-0">
         <div className="container">
           <ProjectList projects={projects} />
         </div>
+      </div>
+
+      <div className="mt-32 lg:mt-40 flex flex-col items-center px-6 md:px-10 2xl:px-0">
+        {
+          category &&
+          <div className="container">
+            <ProjectCategoryList categoryList={ProjectCategoryListData.filter((projectCategory) => projectCategory.id !== category.id)} />
+          </div>
+        }
+      </div>
+
+      <div className="mt-72 md:mt-80 lg:mt-96  w-full">
+        <Footer />
       </div>
     </>
   )
