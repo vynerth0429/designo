@@ -24,12 +24,12 @@ module.exports = {
           lineHeight: '3rem',
           letterSpacing: '0.125rem',
         }],
-        'h3': ['1.25rem', {
-          lineHeight: '1.625rem',
-          letterSpacing: '-0.8px',
+        'h3': ['2rem', {
+          lineHeight: '2.25rem',
+          letterSpacing: '0rem',
         }],
-        'h4': ['12px', {
-          lineHeight: '15px',
+        'h4': ['1.25rem', {
+          lineHeight: '1.625rem',
           letterSpacing: '0.3125rem',
         }],
         'body1': ['1rem', {
@@ -38,7 +38,11 @@ module.exports = {
         }],
         'body2': ['0.875rem', {
           lineHeight: '0.875rem',
-          letterSpacing: '00.125rem',
+          letterSpacing: '0.125rem',
+        }],
+        'caption': ['0.9375rem', {
+          lineHeight: '0.875rem',
+          letterSpacing: '0.0625rem',
         }],
       },
       colors: {
@@ -53,10 +57,15 @@ module.exports = {
           '2xl': "1280px",
         }
       },
+      backgroundImage: theme => ({
+        'home-header-bg': "url('/assets/home/desktop/bg-pattern-hero-home.svg')"
+      })
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      fill: ['hover', 'focus', 'group-hover'],
+    },
   },
   plugins: [],
 }
