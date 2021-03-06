@@ -28,13 +28,14 @@ function MenuView() {
         <div className="hidden sm:flex justify-end space-x-10">
           {
             MenuItemsData.map((menuItem, index) => (
-              <div
-                key={index}
-                className="animated-menu menu-white">
-                <span className="uppercase text-body2 text-grey-dark">
-                  { menuItem.display }
-                </span>
-              </div>
+              <a key={index}
+                href={menuItem.link}>
+                <div className="animated-menu menu-white">
+                  <span className="uppercase text-body2 text-grey-dark">
+                    { menuItem.display }
+                  </span>
+                </div>
+              </a>
             ))
           }
         </div>

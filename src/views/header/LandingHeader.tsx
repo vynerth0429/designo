@@ -1,15 +1,13 @@
 import React from 'react';
 import Image from 'next/image';
 
-import useBreakpoints from '../../hooks/useBreakpoints';
-
 import ButtonLight from '../button/ButtonLight';
 
 function LandingHeader() {
   return (
     <div className="relative bg-peach overflow-hidden md:rounded-2xl">
       <div className="relative z-10 px-6 pt-20 flex flex-col items-center md:rounded-2xl lg:flex-row lg:px-24 lg:pt-36 lg:items-start">
-        <div className="flex flex-col items-center w-auto lg:items-start md:w-4/5 lg:w-auto">
+        <div className="relative z-20 flex flex-col items-center w-auto lg:items-start md:w-4/5 lg:w-auto">
           <div className="text-center lg:text-left">
             <span className="text-h3 text-white font-medium">
               Award-winning custom designs and digital branding solutions

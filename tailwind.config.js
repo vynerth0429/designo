@@ -66,7 +66,19 @@ module.exports = {
       backgroundImage: theme => ({
         'home-header-bg': "url('/assets/home/desktop/bg-pattern-hero-home.svg')",
         'footer-contact-bg': "url('/assets/shared/desktop/bg-pattern-call-to-action.svg')",
-      })
+      }),
+      backgroundPosition: {
+        '-left-86-top-48': 'left -96px top -48px'
+      },
+      backgroundSize: {
+        'unset': 'unset',
+      },
+      height: {
+        '120': '30rem'
+      },
+      width: {
+        '120': '30rem'
+      }
     },
   },
   variants: {

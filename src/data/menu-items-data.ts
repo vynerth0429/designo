@@ -6,7 +6,7 @@ export type TMenuItem = {
 export const MenuItemsData: TMenuItem[] = [
   {
     display: 'Our Company',
-    link: ''
+    link: '/about'
   },
   {
     display: 'Location',
