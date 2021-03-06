@@ -43,3 +43,21 @@ export const AboutUsTalentData: TAboutUsHeader = {
     desktop: '/assets/shared/desktop/bg-pattern-three-circles.svg',
   }
 }
+
+export const AboutUsRealDealData: TAboutUsHeader = {
+  title: 'The real deal',
+  description: [
+    'As strategic partners in our clients’ businesses, we are ready to take on any challenge as our own. Solving real problems require empathy and collaboration, and we strive to bring a fresh perspective to every opportunity. We make design and technology more accessible and give you tools to measure success.',
+    'We are visual storytellers in appealing and captivating ways. By combining business and marketing strategies, we inspire audiences to take action and drive real results.',
+  ],
+  image: {
+    mobile: '/assets/about/mobile/image-real-deal.jpg',
+    tablet: '/assets/about/tablet/image-real-deal.jpg',
+    desktop: '/assets/about/desktop/image-real-deal.jpg',
+  },
+  imageBG: {
+    mobile: '/assets/shared/desktop/bg-pattern-three-circles.svg',
+    tablet: '/assets/shared/desktop/bg-pattern-three-circles.svg',
+    desktop: '/assets/shared/desktop/bg-pattern-three-circles.svg',
+  }
+}
