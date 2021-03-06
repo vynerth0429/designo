@@ -74,11 +74,13 @@ module.exports = {
         'unset': 'unset',
       },
       height: {
-        '120': '30rem'
+        '120': '30rem',
+        '160': '40rem',
       },
       width: {
-        '120': '30rem'
-      }
+        '120': '30rem',
+        '160': '40rem',
+      },
     },
   },
   variants: {

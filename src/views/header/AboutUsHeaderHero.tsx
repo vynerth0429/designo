@@ -20,7 +20,7 @@ function AboutUsHeaderHero() {
       setImageBG(AboutUsHeroData.imageBG.mobile);
     } else if (breakpoint === 'md') {
       setImage(AboutUsHeroData.image.tablet);
-      setImageBG(AboutUsHeroData.imageBG.desktop);
+      setImageBG(AboutUsHeroData.imageBG.tablet);
     } else if (breakpoint === 'lg') {
       setImage(AboutUsHeroData.image.desktop);
       setImageBG(AboutUsHeroData.imageBG.desktop);

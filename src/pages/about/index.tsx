@@ -1,6 +1,7 @@
 import React from 'react';
 
 import AboutUsHeaderHero from '../../views/header/AboutUsHeaderHero';
+import AboutUsHeaderTalent from '../../views/header/AboutUsHeaderTalent';
 import Footer from '../../views/footer/Footer';
 
 function AboutUsPage() {
@@ -9,6 +10,12 @@ function AboutUsPage() {
       <div className="md:mt-8 flex flex-col items-center px-0 md:px-10 2xl:px-0">
         <div className="container space-y-40">
           <AboutUsHeaderHero />
+        </div>
+      </div>
+
+      <div className="md:mt-28 flex flex-col items-center px-0 md:px-10 2xl:px-0">
+        <div className="container space-y-40">
+          <AboutUsHeaderTalent />
         </div>
       </div>
 
