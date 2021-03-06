@@ -29,4 +29,4 @@ function FooterContact() {
   )
 }
 
-export default FooterContact;
+export default React.memo(FooterContact);

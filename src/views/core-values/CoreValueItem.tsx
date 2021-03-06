@@ -33,4 +33,4 @@ function CoreValueItem(props: ComponentProps) {
   )
 }
 
-export default CoreValueItem;
+export default React.memo(CoreValueItem);

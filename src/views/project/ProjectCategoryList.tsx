@@ -26,4 +26,4 @@ function ProjectCategoryList(props: ComponentProps) {
   )
 }
 
-export default ProjectCategoryList;
+export default React.memo(ProjectCategoryList);

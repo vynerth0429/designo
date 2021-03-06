@@ -23,4 +23,4 @@ function CoreValueList(props: ComponentProps) {
   )
 }
 
-export default CoreValueList;
+export default React.memo(CoreValueList);

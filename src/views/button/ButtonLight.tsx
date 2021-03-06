@@ -22,4 +22,4 @@ function ButtonLight(props: ComponentProps) {
   )
 }
 
-export default ButtonLight;
+export default React.memo(ButtonLight);

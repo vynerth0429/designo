@@ -59,4 +59,4 @@ function ProjectCategoryItem(props: ComponentProps) {
   )
 }
 
-export default ProjectCategoryItem;
+export default React.memo(ProjectCategoryItem);

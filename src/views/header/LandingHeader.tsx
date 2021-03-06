@@ -49,4 +49,4 @@ function LandingHeader() {
   )
 }
 
-export default LandingHeader
+export default React.memo(LandingHeader);
