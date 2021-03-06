@@ -11,10 +11,10 @@ export default class CustomDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          <title>Designo multi-page</title>
           <link rel="icon" href="/favicon.png" />
-          <meta name="description" content="A mobile responsive web application" />
-          <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
+          <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
+          <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png" />
+          <link rel="apple-touch-icon" sizes="180x180" href="/favicon.png" />
         </Head>
 
         <body>

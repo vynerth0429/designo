@@ -36,6 +36,10 @@ module.exports = {
           lineHeight: '1.625rem',
           letterSpacing: '0rem',
         }],
+        'body2': ['0.875rem', {
+          lineHeight: '0.875rem',
+          letterSpacing: '00.125rem',
+        }],
       },
       colors: {
         'peach': '#E7816B',
