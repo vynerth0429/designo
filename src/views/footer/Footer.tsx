@@ -6,16 +6,23 @@ import { MenuItemsData } from '../../data/menu-items-data';
 import SocialMedia from './SocialMedia';
 import FooterContact from './FooterContact';
 
-function Footer() {
+interface ComponentProps {
+  hideContact?: boolean
+}
+
+function Footer(props: ComponentProps) {
   return (
     <div className="bg-dark w-full">
       <div className="flex flex-col items-center py-16 px-6 md:px-10 2xl:px-0">
         <div className="container">
-          <div className="-mt-60 md:-mt-80">
-            <FooterContact />
-          </div>
+          {
+            !props.hideContact &&
+            <div className="-mt-60 md:-mt-80">
+              <FooterContact />
+            </div>
+          }
 
-          <div className="mt-16 grid grid-cols-1 gap-8 md:grid-cols-3">
+          <div className={`${props.hideContact ? 'mt-9' : 'mt-16'} grid grid-cols-1 gap-8 md:grid-cols-3`}>
             <div className="col-start-1 col-end-2 flex justify-center items-center md:justify-start">
               <a href="/">
                 <div className="relative h-7 w-52">
