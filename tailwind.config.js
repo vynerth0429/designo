@@ -46,8 +46,12 @@ module.exports = {
           letterSpacing: '0.125rem',
         }],
         'caption': ['0.9375rem', {
-          lineHeight: '0.875rem',
+          lineHeight: '1.625rem',
           letterSpacing: '0.0625rem',
+        }],
+        'note': ['0.75rem', {
+          lineHeight: '1.625rem',
+          letterSpacing: '0rem',
         }],
       },
       colors: {
@@ -85,8 +89,9 @@ module.exports = {
   },
   variants: {
     extend: {
-      fill: ['hover', 'focus', 'group-hover'],
-      scale: ['hover', 'active', 'group-hover'],
+      fill: ['hover', 'focus', 'group-hover', 'group-focus'],
+      scale: ['hover', 'active', 'group-hover', 'group-focus'],
+      borderColor: ['responsive', 'hover', 'focus', 'focus-within'],
     },
   },
   plugins: [],

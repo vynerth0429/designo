@@ -14,6 +14,6 @@ export const MenuItemsData: TMenuItem[] = [
   },
   {
     display: 'Contact',
-    link: ''
+    link: '/contact'
   }
 ]
