@@ -10,7 +10,7 @@ export const MenuItemsData: TMenuItem[] = [
   },
   {
     display: 'Location',
-    link: ''
+    link: '/location'
   },
   {
     display: 'Contact',

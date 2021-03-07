@@ -21,6 +21,7 @@ export type TLocation = {
   contact: TContact,
   imageMap: TImage,
   illustration: string,
+  imageBG: string,
 }
 
 export const LocationListData: TLocation[] = [
@@ -41,6 +42,7 @@ export const LocationListData: TLocation[] = [
       desktop: '/assets/locations/desktop/image-map-canada.png',
     },
     illustration: '/assets/shared/desktop/illustration-canada.svg',
+    imageBG: '/assets/shared/desktop/bg-pattern-three-circles.svg',
   },
   {
     name: 'Australia',
@@ -59,6 +61,7 @@ export const LocationListData: TLocation[] = [
       desktop: '/assets/locations/desktop/image-map-australia.png',
     },
     illustration: '/assets/shared/desktop/illustration-australia.svg',
+    imageBG: '/assets/shared/desktop/bg-pattern-three-circles.svg',
   },
   {
     name: 'United Kingdom',
@@ -77,5 +80,6 @@ export const LocationListData: TLocation[] = [
       desktop: '/assets/locations/desktop/image-map-united-kingdom.png',
     },
     illustration: '/assets/shared/desktop/illustration-united-kingdom.svg',
+    imageBG: '/assets/shared/desktop/bg-pattern-three-circles.svg',
   },
 ];
