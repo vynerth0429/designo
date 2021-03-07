@@ -9,13 +9,13 @@ function LandingHeader() {
       <div className="px-6 pt-20 flex flex-col items-center md:rounded-2xl lg:flex-row lg:px-24 lg:pt-36 lg:items-start">
         <div className="relative z-20 flex flex-col items-center w-auto lg:items-start md:w-4/5 lg:w-auto">
           <div className="text-center lg:text-left">
-            <span className="text-h3 text-white font-medium">
+            <span className="text-h3 text-white font-medium md:text-h1">
               Award-winning custom designs and digital branding solutions
             </span>
           </div>
 
           <div className="mt-4 text-center lg:text-left">
-            <span className="text-caption text-white">
+            <span className="text-caption text-white md:text-base">
               With over 10 years in the industry, we are experienced in creating fully responsive websites, app design, and engaging brand experiences. Find out more about our services.
             </span>
           </div>

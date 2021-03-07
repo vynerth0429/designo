@@ -14,13 +14,13 @@ function ProjectHeader(props: ComponentProps) {
         backgroundImage: "url('"+ props.projectCategory.image.header +"')"
       }}>
       <div className="text-center">
-        <span className="text-h3 text-white font-medium">
+        <span className="text-h3 text-white font-medium md:text-h1">
           { props.projectCategory.title }
         </span>
       </div>
 
       <div className="text-center">
-        <span className="text-caption text-white">
+        <span className="text-caption text-white md:text-base">
           { props.projectCategory.subtitle }
         </span>
       </div>
