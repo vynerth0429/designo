@@ -48,6 +48,7 @@ function ProjectCategoryItem(props: ComponentProps) {
             </span>
             <span>
               <Image
+                alt="Right arrow"
                 src="/assets/shared/desktop/icon-right-arrow.svg"
                 width="4px"
                 height="8px"/>

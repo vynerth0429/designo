@@ -12,6 +12,7 @@ function ProjectItem(props: ComponentProps) {
     <div className="h-full flex flex-col group overflow-hidden cursor-pointer rounded-2xl sm:flex-row lg:flex-col">
       <div className="relative h-80 rounded-tl-2xl rounded-tr-2xl sm:flex-1 lg:flex-none">
         <Image
+          alt={props.project.title}
           src={props.project.imageSrc}
           quality={100}
           layout="fill"

@@ -22,6 +22,7 @@ function InputComp(props: ComponentProps) {
             </span>
             <div className="relative bg-white rounded-full h-5 w-5 flex items-center justify-center">
               <Image
+                alt="Error icon"
                 src="/assets/contact/desktop/icon-error.svg"
                 layout="fill"
                 quality={100}
