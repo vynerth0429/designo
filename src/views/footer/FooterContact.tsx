@@ -21,7 +21,9 @@ function FooterContact() {
 
         <div>
           <div className="mt-6 inline-block">
-            <ButtonLight label="Get in touch" onClick={null}/>
+            <a href="/contact">
+              <ButtonLight label="Get in touch" onClick={null}/>
+            </a>
           </div>
         </div>
       </div>
