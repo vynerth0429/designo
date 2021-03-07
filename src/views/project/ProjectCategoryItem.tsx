@@ -39,11 +39,11 @@ function ProjectCategoryItem(props: ComponentProps) {
           backgroundImage: "url('"+ imageBG +"')"
         }}>
         <div className="relative h-full z-10 flex flex-col items-center justify-center transition transform duration-500 group-hover:scale-110">
-          <div className="text-center text-h4 text-white font-medium uppercase">
+          <div className="text-center text-h4 text-white font-medium uppercase md:text-h2">
             { props.category.title }
           </div>
           <div className="mt-3 text-center flex items-center space-x-4">
-            <span className="text-caption text-white font-medium">
+            <span className="text-caption text-white font-medium uppercase">
               View projects
             </span>
             <span>
