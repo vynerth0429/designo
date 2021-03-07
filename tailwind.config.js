@@ -72,7 +72,8 @@ module.exports = {
         'footer-contact-bg': "url('/assets/shared/desktop/bg-pattern-call-to-action.svg')",
       }),
       backgroundPosition: {
-        '-left-86-top-48': 'left -96px top -48px'
+        '-left-86-top-48': 'left -96px top -48px',
+        '-right-40': 'right -40px center'
       },
       backgroundSize: {
         'unset': 'unset',

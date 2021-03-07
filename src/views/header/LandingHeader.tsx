@@ -5,8 +5,8 @@ import ButtonLight from '../button/ButtonLight';
 
 function LandingHeader() {
   return (
-    <div className="relative bg-peach overflow-hidden md:rounded-2xl">
-      <div className="relative z-10 px-6 pt-20 flex flex-col items-center md:rounded-2xl lg:flex-row lg:px-24 lg:pt-36 lg:items-start">
+    <div className="relative bg-peach overflow-hidden md:rounded-2xl bg-home-header-bg bg-no-repeat bg-left md:-bg-right-40 lg:bg-right-top">
+      <div className="px-6 pt-20 flex flex-col items-center md:rounded-2xl lg:flex-row lg:px-24 lg:pt-36 lg:items-start">
         <div className="relative z-20 flex flex-col items-center w-auto lg:items-start md:w-4/5 lg:w-auto">
           <div className="text-center lg:text-left">
             <span className="text-h3 text-white font-medium">
@@ -33,8 +33,6 @@ function LandingHeader() {
             className="-mt-24 max-w-none lg:-mt-40"/>
         </div>
       </div>
-
-      <div className="absolute left-0 -right-72 top-24 bottom-0 bg-home-header-bg bg-no-repeat bg-right-top sm:-right-56 md:-right-40 lg:right-0 lg:top-0"></div>
     </div>
   )
 }
