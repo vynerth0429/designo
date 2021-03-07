@@ -58,4 +58,30 @@
       }
     }
   }
+
+  @media (min-width: 1024px) {
+    #home {
+      background-image: url('/assets/shared/desktop/bg-pattern-leaf.svg'), url('/assets/shared/desktop/bg-pattern-leaf-reverse.svg');
+      background-position: left 0 top 350px, right 0 bottom 500px;
+      background-repeat: no-repeat, no-repeat;
+    }
+
+    #project {
+      background-image: url('/assets/shared/desktop/bg-pattern-leaf.svg');
+      background-position: left 0 top 150px;
+      background-repeat: no-repeat;
+    }
+
+    #about {
+      background-image: url('/assets/shared/desktop/bg-pattern-leaf.svg'), url('/assets/shared/desktop/bg-pattern-leaf-reverse.svg');
+      background-position: left 0 top 250px, right 0 bottom 1150px;
+      background-repeat: no-repeat, no-repeat;
+    }
+
+    #contact {
+      background-image: url('/assets/shared/desktop/bg-pattern-leaf.svg');
+      background-position: right 0 bottom 200px;
+      background-repeat: no-repeat;
+    }
+  }
 }

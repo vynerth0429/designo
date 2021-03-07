@@ -8,7 +8,7 @@ import Footer from '../../views/footer/Footer';
 
 function ContactPage() {
   return (
-    <>
+    <div id="contact">
       <div className="md:mt-8 flex flex-col items-center px-0 md:px-10 2xl:px-0">
         <div className="container space-y-40">
           <ContactForm />
@@ -24,7 +24,7 @@ function ContactPage() {
       <div className="mt-32 md:mt-32 lg:mt-40 w-full">
         <Footer hideContact={true}/>
       </div>
-    </>
+    </div>
   )
 }
 
