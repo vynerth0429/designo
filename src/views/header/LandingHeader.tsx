@@ -25,12 +25,13 @@ function LandingHeader() {
           </div>
         </div>
 
-        <div className="relative -mr-0 -mb-80 lg:-mb-56 lg:-mr-40">
+        <div className="relative">
           <img
             src="/assets/home/desktop/image-hero-phone.png"
             alt=""
             width="600px"
-            className="-mt-24 max-w-none lg:-mt-40"/>
+            height="auto"
+            className="-mt-24 -mr-0 -mb-80 max-w-none lg:-mb-56 lg:-mr-40 lg:-mt-40"/>
         </div>
       </div>
     </div>
