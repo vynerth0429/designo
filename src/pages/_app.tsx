@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }) {
 
   return <>
     <Head>
-      <title>Designo multi-page</title>
+      <title>Designo | Multi-page App</title>
       <meta name="description" content="A mobile responsive multi-page web application" />
     </Head>
 
